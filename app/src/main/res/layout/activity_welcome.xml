@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#fafafa"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="64dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="Welcome to Tic Tac Toe"
+            android:textColor="#3151b5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="32dp"
+            android:gravity="center"
+            android:paddingBottom="64dp"
+            android:text="Choose your preferred letter to begin"
+            android:textColor="#3d5afe"
+            android:textSize="24sp"
+            android:textStyle="italic"
+
+            />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:layout_gravity="right">
+        <Button
+            android:id="@+id/xButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textColor="#fafafa"
+            android:background="@drawable/x_back"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text ="OR"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textColor="#3151b5"/>
+        <Button
+            android:id="@+id/oButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O"
+            android:textColor="#fafa"
+            android:background="@drawable/y_back"
+
+            />
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
